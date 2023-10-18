@@ -1,59 +1,35 @@
-## challenge1
+## WEEK 1 CODE CHALLENGE
 
-## Grading System
+This repository is for the first week code challenge. It contains a collection of three toy problems wriiten in Javascript. The toy problems includes.
 
-# Student Grade Calculator
+    Student grade generator-for calculating grades for students
+    Speed detector-which monitors speed of a car
+    Net salary calculator-To calculate net salary per your basic salary
 
-This is a simple function that calculates the grade of a student based on their mark. The function takes a mark as input and returns their grade.
+## Technologies used
 
-## libraries
-1 NodeJs v18.18.0
-2 Javascript
+The programs have been built with Node V14.21.0 and visual studio text editor
+Project setup
 
-## Set up instructions 
-clone the repository in your terminal
-Navigate to code challenge 
-run code to open your vs code
-run **npm install** to install dependancies
-run **npm test** to check your misakes
+    clone this repository in your local machine using git clone command.
+    Ensure the NVM libraries are set up in your machine.
+    run the applications as per the descriptions.
 
+## Student Grade Generator
 
-## Usage
+    Open the grade-generator javascript file in your text editor i.e visual code
+    Enter the student's marks at the invocation of the function.
+    Student grade will be displayed at the terminal.
 
-To use this function, simply call it with the user's input. The function will return the corresponding grade.
+## Speed Detector
 
-The grading system used by this function is as follows:
+    Open the speed-generator javascript file in your text editor i.e visual code
+    Enter the speed at the invocation of the function.
+    response license suspended or demerit points will be displayed at the terminal according to the speed entered.
 
-- A: 79-100
-- B: 60-78
-- C: 49-59
-- D: 40-48
-- E: 0-39
+## Net salary calculator
 
-## challenge2
-## Speed detector
-
-# demerits calculator
-
-This is a simple function that calculates the demerits of a car based on their demerits.
-
-# usage
-This speed detector functions as follows
-
-speed less than 70 should return "ok"
-if the speed exceeds 70 it should give the driver 1 demerit point
-if the speed exceeds 80 it should give the driver 2 demerits points
-if the driver gets more than 12 points he should be given license suspended
-
-## challenge3 
-## Individuals net salary
-This program is used to calculate idividual net salary by getting the inputs of basic salary and benefits.
-
-
-## usage 
-it is used to simplify on how to pay taxes from basic salary ie. NHIF and NSSF
-You can find the values here:https://www.aren.co.ke/payroll/taxrates.htm 
-
-
-
+    Open the net-salary-detector javascript file in your text editor i.e visual code
+    Enter the prompts as expected
+    console.log(netSalary) to get the net salary.
 
